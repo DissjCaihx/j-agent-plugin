@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jagent.runtime.discovery.PluginMetadataReaderTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in com.jagent.runtime.discovery.PluginMetadataReaderTest

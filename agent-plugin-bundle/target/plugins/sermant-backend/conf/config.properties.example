@@ -1,0 +1,21 @@
+# Sermant Backend Netty gateway, default port is 6888 (not the web UI port 8900).
+sermant.backend.enabled=true
+sermant.backend.address=127.0.0.1
+sermant.backend.port=6888
+sermant.backend.connect-timeout-ms=5000
+sermant.backend.heartbeat-interval-ms=30000
+sermant.backend.event-interval-ms=30000
+sermant.backend.reconnect-interval-ms=5000
+
+# Heartbeat identity; service defaults to app-name, app-name defaults to spring.application.name/system properties.
+sermant.agent.service-name=
+sermant.agent.app-name=
+sermant.agent.app-type=JAVA
+sermant.agent.version=0.1.0
+
+# Report WARN and ERROR logs as Sermant LOG events. WARN/ERROR collection defaults to enabled.
+sermant.event.enabled=true
+sermant.event.report-warn=true
+sermant.event.report-error=true
+sermant.event.max-queue-size=1000
+sermant.event.dedupe-interval-ms=300000

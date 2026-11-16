@@ -1,0 +1,5 @@
+Premain-Class: com.jagent.bootstrap.AgentBootstrap
+Agent-Class: com.jagent.bootstrap.AgentBootstrap
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+

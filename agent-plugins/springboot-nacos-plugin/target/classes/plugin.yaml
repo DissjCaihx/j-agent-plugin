@@ -1,0 +1,11 @@
+plugin:
+  id: springboot-nacos
+  name: Spring Boot Nacos Integration
+  version: 0.1.0
+  entry-class: com.jagent.plugins.springbootnacos.SpringBootNacosPlugin
+runtime:
+  java-version: 8
+compatibility:
+  core-api: "0.1.x"
+lifecycle:
+  auto-start: true

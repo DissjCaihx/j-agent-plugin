@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/agent-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-bootstrap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-bootstrap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-cli/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-cli/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-distribution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-distribution/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugin-bundle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugin-bundle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/runtime-info-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/runtime-info-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/sermant-backend-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/sermant-backend-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/springboot-nacos-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/springboot-nacos-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-plugins/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-runtime/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/agent-runtime/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/hello-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/hello-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

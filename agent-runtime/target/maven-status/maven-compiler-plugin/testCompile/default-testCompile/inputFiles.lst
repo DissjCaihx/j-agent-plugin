@@ -1,0 +1,9 @@
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/fixture/IsolatedPlugin.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/classloader/PluginClassLoaderTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/discovery/PluginMetadataReaderTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/installation/PluginPackageInstallerTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/manager/PluginRuntimeTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/configuration/AgentConfigurationReaderTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/extension/ExtensionRegistryImplTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/management/LocalManagementServerTest.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/test/java/com/jagent/runtime/event/PluginEventBusImplTest.java

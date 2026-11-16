@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="agent-runtime" />
+        <module name="agent-cli" />
+        <module name="agent-bootstrap" />
+        <module name="agent-api" />
+        <module name="sermant-backend-plugin" />
+        <module name="springboot-nacos-plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-plugin" target="1.8" />
+      <module name="runtime-info-plugin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

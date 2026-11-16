@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jagent.runtime.manager.PluginRuntimeTest" time="0.061" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/test-classes:/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/classes:/Volumes/CAIHX/Project/j-agent-plugin/agent-api/target/agent-api-0.1.0-SNAPSHOT.jar:/Users/caihx/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/caihx/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/caihx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="https.proxyPort" value="7890"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/caihx/bin/jdk-21.0.9/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/surefire/surefirebooter-20261115211808564_3.jar /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/surefire 2026-11-15T21-18-08_076-jvmRun1 surefire-20261115211808564_1tmp surefire_0-20261115211808564_2tmp"/>
+    <property name="http.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/test-classes:/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/classes:/Volumes/CAIHX/Project/j-agent-plugin/agent-api/target/agent-api-0.1.0-SNAPSHOT.jar:/Users/caihx/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/caihx/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/caihx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/caihx"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/Users/caihx/bin/jdk-21.0.9/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="basedir" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/target/surefire/surefirebooter-20261115211808564_3.jar"/>
+    <property name="user.script" value="Hans"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="caihx"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="localRepository" value="/Users/caihx/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/"/>
+    <property name="idea.version" value="2025.2.5"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="socksProxyPort" value="7890"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/caihx/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.repo.local" value="/Users/caihx/.m2/repository"/>
+    <property name="socksNonProxyHosts" value="127.0.0.1|192.168.0.0/16|*.192.168.0.0/16|10.0.0.0/8|*.10.0.0.0/8|172.16.0.0/12|*.172.16.0.0/12|localhost|*.localhost|local|*.local|crashlytics.com|*.crashlytics.com|&lt;local&gt;|*.&lt;local&gt;"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="http.proxyPort" value="7890"/>
+  </properties>
+  <testcase name="unknownPluginIsReported" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.0"/>
+  <testcase name="discoversStartsStopsAndRejectsRestart" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.006">
+    <system-err><![CDATA[2026-11-15T21:18:08.805+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins9303639015085107412
+2026-11-15T21:18:08.807+08:00 INFO [main] [plugin:test-plugin] Started in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="stopTimeoutDoesNotBlockManagerAndIsReported" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.033">
+    <system-err><![CDATA[2026-11-15T21:18:08.809+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-timeout282060866297480461
+2026-11-15T21:18:08.810+08:00 INFO [main] [plugin:slow-plugin] Started in 0 ms
+2026-11-15T21:18:08.841+08:00 WARNING [main] [plugin:slow-plugin] Plugin stop timed out after 30 ms
+]]></system-err>
+  </testcase>
+  <testcase name="concurrentStartIsIdempotentAndResourcesAreClosed" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.002">
+    <system-err><![CDATA[2026-11-15T21:18:08.843+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-concurrent17476240661565831667
+2026-11-15T21:18:08.844+08:00 INFO [Thread-3] [plugin:resource-plugin] Started in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="transformerIsRemovedWhenPluginStops" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.002">
+    <system-err><![CDATA[2026-11-15T21:18:08.845+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-transformer11284328503830670310
+2026-11-15T21:18:08.846+08:00 INFO [main] [plugin:transform-plugin] Started in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="configurationReloadIsOptInAndCallbackControlsCommit" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.002">
+    <system-err><![CDATA[2026-11-15T21:18:08.847+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-config5695276263227350997
+2026-11-15T21:18:08.848+08:00 INFO [main] [plugin:config-plugin] Started in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="rejectsDependencyCycles" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.003">
+    <system-err><![CDATA[2026-11-15T21:18:08.849+08:00 INFO [main] [discovery] Scanning 2 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugin-cycle6338356542213216304
+2026-11-15T21:18:08.850+08:00 SEVERE [main] [plugin:alpha] Plugin entered FAILED state
+java.lang.IllegalStateException: Plugin dependency cycle includes alpha
+	at com.jagent.runtime.manager.PluginRuntime.visit(PluginRuntime.java:148)
+	at com.jagent.runtime.manager.PluginRuntime.visit(PluginRuntime.java:156)
+	at com.jagent.runtime.manager.PluginRuntime.visit(PluginRuntime.java:156)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:89)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:51)
+	at com.jagent.runtime.manager.PluginRuntimeTest.rejectsDependencyCycles(PluginRuntimeTest.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-11-15T21:18:08.851+08:00 SEVERE [main] [plugin:beta] Plugin entered FAILED state
+java.lang.IllegalStateException: Plugin dependency cycle includes beta
+	at com.jagent.runtime.manager.PluginRuntime.visit(PluginRuntime.java:148)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:89)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:51)
+	at com.jagent.runtime.manager.PluginRuntimeTest.rejectsDependencyCycles(PluginRuntimeTest.java:162)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="globalEnabledListOverridesDescriptorDefaults" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.003">
+    <system-err><![CDATA[2026-11-15T21:18:08.853+08:00 INFO [main] [discovery] Scanning 2 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugin-selection11713383415141903517
+2026-11-15T21:18:08.854+08:00 INFO [main] [plugin:selected] Started in 0 ms
+]]></system-err>
+  </testcase>
+  <testcase name="startsDependenciesBeforeConsumersAndReportsInvalidGraphs" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.007">
+    <system-err><![CDATA[2026-11-15T21:18:08.857+08:00 INFO [main] [discovery] Scanning 2 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-dependencies3053260169073608761
+2026-11-15T21:18:08.858+08:00 INFO [main] [plugin:provider] Started in 0 ms
+2026-11-15T21:18:08.859+08:00 INFO [main] [plugin:consumer] Started in 0 ms
+2026-11-15T21:18:08.860+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-invalid-dependencies5043093492747634693
+2026-11-15T21:18:08.860+08:00 SEVERE [main] [plugin:missing-consumer] Plugin entered FAILED state
+java.lang.IllegalStateException: Missing plugin dependency: absent
+	at com.jagent.runtime.manager.PluginRuntime.visit(PluginRuntime.java:153)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:89)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:51)
+	at com.jagent.runtime.manager.PluginRuntimeTest.startsDependenciesBeforeConsumersAndReportsInvalidGraphs(PluginRuntimeTest.java:148)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+  <testcase name="loadFailureIsVisibleAsFailedState" classname="com.jagent.runtime.manager.PluginRuntimeTest" time="0.002">
+    <system-err><![CDATA[2026-11-15T21:18:08.862+08:00 INFO [main] [discovery] Scanning 1 plugin directories under /var/folders/mn/k5_wc5y57n1fwl9mfm8mfc0h0000gn/T/agent-plugins-failed12911333382736902749
+2026-11-15T21:18:08.863+08:00 SEVERE [main] [plugin:broken-plugin] Plugin entered FAILED state
+java.lang.ClassNotFoundException: missing.PluginEntry
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at com.jagent.runtime.classloader.PluginClassLoader.loadClass(PluginClassLoader.java:22)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at com.jagent.runtime.manager.PluginRuntime$ManagedPlugin.load(PluginRuntime.java:286)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:107)
+	at com.jagent.runtime.manager.PluginRuntime.discoverAndStart(PluginRuntime.java:51)
+	at com.jagent.runtime.manager.PluginRuntimeTest.loadFailureIsVisibleAsFailedState(PluginRuntimeTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+</testsuite>

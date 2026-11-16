@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jagent</groupId>
+        <artifactId>j-agent-plugin</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>agent-plugins</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-nacos-plugin</module>
+        <module>sermant-backend-plugin</module>
+    </modules>
+</project>

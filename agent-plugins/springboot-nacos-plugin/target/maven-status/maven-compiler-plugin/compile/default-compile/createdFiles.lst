@@ -1,0 +1,11 @@
+com/jagent/plugins/springbootnacos/SpringBootNacosPlugin.class
+com/jagent/plugins/springbootnacos/config/NacosSettings.class
+com/jagent/plugins/springbootnacos/discovery/NacosDiscovery.class
+com/jagent/plugins/springbootnacos/configcenter/NacosConfiguration$1.class
+com/jagent/plugins/springbootnacos/discovery/NacosDiscovery$RegisteredService.class
+com/jagent/plugins/springbootnacos/discovery/NacosDiscovery$1.class
+com/jagent/plugins/springbootnacos/lifecycle/SpringBootLifecycleTransformer$1.class
+com/jagent/plugins/springbootnacos/configcenter/NacosConfiguration.class
+com/jagent/plugins/springbootnacos/lifecycle/SpringBootLifecycleTransformer$1$1.class
+com/jagent/plugins/springbootnacos/lifecycle/SpringBootContextInfo.class
+com/jagent/plugins/springbootnacos/lifecycle/SpringBootLifecycleTransformer.class

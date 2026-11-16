@@ -1,0 +1,15 @@
+plugin:
+  id: sermant-backend
+  name: Sermant Backend Integration
+  version: 0.1.0
+  entry-class: com.jagent.plugins.sermantbackend.SermantBackendPlugin
+runtime:
+  java-version: ">=8"
+compatibility:
+  core-api: "[0.1.0-SNAPSHOT,0.2.0)"
+  frameworks:
+    spring-boot: "[2.5.0,2.6.0)"
+  libraries:
+    org.ow2.asm:asm: "[9.7.1,9.8.0)"
+lifecycle:
+  auto-start: true

@@ -1,0 +1,26 @@
+# Copy this file to plugins/springboot-nacos/conf/config.properties to enable Nacos.
+nacos.enabled=true
+nacos.server-addr=127.0.0.1:8848
+nacos.namespace=
+nacos.username=${NACOS_USERNAME}
+nacos.password=${NACOS_PASSWORD}
+nacos.connection.timeout-ms=5000
+
+# Select one or both services. The actual port and service name come from Spring Boot.
+nacos.discovery.enabled=true
+nacos.discovery.register.enabled=true
+nacos.discovery.service-name=
+nacos.discovery.group-name=DEFAULT_GROUP
+nacos.discovery.cluster-name=DEFAULT
+# Required only if the app binds to a wildcard address such as 0.0.0.0.
+nacos.discovery.ip=
+nacos.discovery.weight=1.0
+nacos.discovery.ephemeral=true
+nacos.discovery.subscribe=
+nacos.discovery.metadata.keys=application,environment
+nacos.discovery.metadata.application=example
+nacos.discovery.metadata.environment=dev
+
+nacos.config.enabled=true
+nacos.config.data-ids=example.yaml
+nacos.config.group=DEFAULT_GROUP

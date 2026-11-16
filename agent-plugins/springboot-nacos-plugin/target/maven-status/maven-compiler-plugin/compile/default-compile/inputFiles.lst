@@ -1,0 +1,6 @@
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/config/NacosSettings.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/discovery/NacosDiscovery.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/lifecycle/SpringBootLifecycleTransformer.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/configcenter/NacosConfiguration.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/SpringBootNacosPlugin.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-plugins/springboot-nacos-plugin/src/main/java/com/jagent/plugins/springbootnacos/lifecycle/SpringBootContextInfo.java

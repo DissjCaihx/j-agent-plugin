@@ -1,0 +1,17 @@
+com/jagent/api/event/PluginEventBus$Subscription.class
+com/jagent/api/InstrumentationManager.class
+com/jagent/api/PluginContext.class
+com/jagent/api/lifecycle/ApplicationContextLifecycle$Listener.class
+com/jagent/api/event/PluginEventBus.class
+com/jagent/api/PluginConfiguration.class
+com/jagent/api/lifecycle/ApplicationContextLifecycle.class
+com/jagent/api/PluginException.class
+com/jagent/api/event/PluginEventBus$EventHandler.class
+com/jagent/api/AgentPlugin.class
+com/jagent/api/configuration/ConfigurablePlugin.class
+com/jagent/api/lifecycle/ApplicationContextLifecycle$Registration.class
+com/jagent/api/PluginLogger.class
+com/jagent/api/PluginResourceManager.class
+com/jagent/api/extension/ExtensionRegistry.class
+com/jagent/api/PluginDescriptor.class
+com/jagent/api/lifecycle/ApplicationContextLifecycle$1.class

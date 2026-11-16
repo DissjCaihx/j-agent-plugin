@@ -1,0 +1,6 @@
+plugins:
+  enabled:
+    - runtime-info
+    - springboot-nacos
+logging:
+  level: INFO
