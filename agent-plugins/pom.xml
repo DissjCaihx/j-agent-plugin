@@ -12,4 +12,24 @@
         <module>springboot-nacos-plugin</module>
         <module>sermant-backend-plugin</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.jagent</groupId>
+                <artifactId>agent-api</artifactId>
+                <version>${project.version}</version>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.jagent</groupId>
+            <artifactId>agent-api</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>

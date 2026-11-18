@@ -1,4 +1,5 @@
 com/jagent/api/event/PluginEventBus$Subscription.class
+com/jagent/api/version/VersionRange.class
 com/jagent/api/InstrumentationManager.class
 com/jagent/api/PluginContext.class
 com/jagent/api/lifecycle/ApplicationContextLifecycle$Listener.class
@@ -15,3 +16,4 @@ com/jagent/api/PluginResourceManager.class
 com/jagent/api/extension/ExtensionRegistry.class
 com/jagent/api/PluginDescriptor.class
 com/jagent/api/lifecycle/ApplicationContextLifecycle$1.class
+com/jagent/api/version/VersionRange$Version.class

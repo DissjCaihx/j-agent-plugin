@@ -1,6 +1,7 @@
 com/jagent/runtime/configuration/AgentConfigurationReader.class
 com/jagent/runtime/management/LocalManagementServer.class
 com/jagent/runtime/management/LocalManagementServer$LimitedInputStream.class
+com/jagent/runtime/discovery/PluginCompatibilityValidator.class
 com/jagent/runtime/manager/PluginRuntime$ManagedPlugin$2.class
 com/jagent/runtime/discovery/PluginMetadataReader.class
 com/jagent/runtime/logging/RuntimeLog.class
@@ -30,6 +31,7 @@ com/jagent/runtime/discovery/PluginDependency.class
 com/jagent/runtime/classloader/PluginClassLoader.class
 com/jagent/runtime/configuration/AgentConfiguration.class
 com/jagent/runtime/extension/ExtensionRegistryImpl$Entry.class
+com/jagent/runtime/discovery/PluginCompatibility.class
 com/jagent/runtime/manager/PluginRuntime$PluginCall.class
 com/jagent/runtime/event/PluginEventBusImpl$Listener.class
 com/jagent/runtime/manager/PluginRuntime$ManagedPlugin$Context$3.class

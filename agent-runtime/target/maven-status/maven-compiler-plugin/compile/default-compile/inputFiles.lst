@@ -1,5 +1,6 @@
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/configuration/PropertiesPluginConfiguration.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/configuration/AgentConfiguration.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/discovery/PluginCompatibility.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/discovery/PluginDependency.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/logging/RuntimeLog.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/configuration/AgentConfigurationReader.java
@@ -9,6 +10,7 @@
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/extension/ExtensionRegistryImpl.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/installation/PluginPackageInstaller.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/classloader/PluginClassLoader.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/discovery/PluginCompatibilityValidator.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/manager/PluginRuntime.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/configuration/ReloadablePluginConfiguration.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-runtime/src/main/java/com/jagent/runtime/lifecycle/PluginState.java

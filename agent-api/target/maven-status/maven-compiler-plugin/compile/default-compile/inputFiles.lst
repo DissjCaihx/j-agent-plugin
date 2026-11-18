@@ -1,12 +1,13 @@
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginException.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/extension/ExtensionRegistry.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/AgentPlugin.java
+/Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/version/VersionRange.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/InstrumentationManager.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/lifecycle/ApplicationContextLifecycle.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginConfiguration.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/event/PluginEventBus.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginResourceManager.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginLogger.java
-/Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/AgentPlugin.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginContext.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/configuration/ConfigurablePlugin.java
 /Volumes/CAIHX/Project/j-agent-plugin/agent-api/src/main/java/com/jagent/api/PluginDescriptor.java
